@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav>
+    <h1>Sumário</h1>
+    <ul>
+      <li><a onclick="carregar('https://panda.ime.usp.br/aulasPython/static/aulasPython/aula01.html')" href="#" >Aula 2 - Variáveis, expresões e comandos</a></li>
+      <li><a href="https://panda.ime.usp.br/aulasPython/static/aulasPython/aula02.html" target="_self">Aula 2 - Variáveis, expresões e comandos</a></li>
+      <li><a href="https://panda.ime.usp.br/aulasPython/static/aulasPython/aula03.html" target="_self">Aula 3 - Execuções condicionais e alternativas</a></li>
+      <li><a href="https://panda.ime.usp.br/aulasPython/static/aulasPython/aula04.html" target="_self">Aula 4 - Classe float e str e execuções condicionais em cadeia</a></li>
+      <li><a href="https://panda.ime.usp.br/aulasPython/static/aulasPython/aula05.html" target="_self">Aula 5 - Valores e operadores booleanos</a></li>
+      <li><a href="https://panda.ime.usp.br/aulasPython/static/aulasPython/while.html" target="_self">Aula 6 - Semana 4: Repetições com While</a></li>
+      <li><a href="https://panda.ime.usp.br/aulasPython/static/aulasPython/aula09.html" target="_self">Aula 9</a></li>
+      <li><a href="https://panda.ime.usp.br/aulasPython/static/aulasPython/aula10.html" target="_self">Aula 10</a></li>
+
+    </ul>
+  </nav>
+  <main>
+    <article id="artigo">
+
+    </article>
+  </main>
+  <footer>
+    <script type="text/javascript">
+        function carregar(pagina){
+          var pag = pagina;
+          document.getElementById('artigo').innerHTML='<iframe src=' + pagina + ' height="700px" width="950px"></iframe>'
+        };
+
+    </script>
+  </footer>
+</body>
+</html>
