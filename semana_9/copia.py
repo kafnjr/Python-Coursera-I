@@ -40,6 +40,8 @@ def separa_palavras(frase):
     return frase.split()
 
 def n_palavras_unicas(lista_palavras):
+    """Insto é um docstring"""
+    # isto é um comentário
     freq = dict()
     unicas = 0
     for palavra in lista_palavras:
@@ -65,15 +67,15 @@ def n_palavras_diferentes(lista_palavras):
 
     return len(freq)
 
-def compara_assinatura(as_a, as_b):    
+def compara_assinatura(as_a, as_b):
     somatorio = 0
     for i in range(len(as_a)):
         somatorio += abs(as_a[i] - as_b[i])
 
     return somatorio / 6
-        
 
-def calcula_assinatura(texto):    
+
+def calcula_assinatura(texto):
     sentencas = separa_sentencas(texto)
     num_sentencas = 0
     soma_car_sentencas = 0
