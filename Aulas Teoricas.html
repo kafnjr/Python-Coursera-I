@@ -14,13 +14,13 @@
     <h1>Sumário</h1>
     <ul>
       <li><a onclick="carregar('https://panda.ime.usp.br/aulasPython/static/aulasPython/aula01.html')" href="#" >Aula 2 - Variáveis, expresões e comandos</a></li>
-      <li><a href="https://panda.ime.usp.br/aulasPython/static/aulasPython/aula02.html" target="_self">Aula 2 - Variáveis, expresões e comandos</a></li>
-      <li><a href="https://panda.ime.usp.br/aulasPython/static/aulasPython/aula03.html" target="_self">Aula 3 - Execuções condicionais e alternativas</a></li>
-      <li><a href="https://panda.ime.usp.br/aulasPython/static/aulasPython/aula04.html" target="_self">Aula 4 - Classe float e str e execuções condicionais em cadeia</a></li>
-      <li><a href="https://panda.ime.usp.br/aulasPython/static/aulasPython/aula05.html" target="_self">Aula 5 - Valores e operadores booleanos</a></li>
-      <li><a href="https://panda.ime.usp.br/aulasPython/static/aulasPython/while.html" target="_self">Aula 6 - Semana 4: Repetições com While</a></li>
-      <li><a href="https://panda.ime.usp.br/aulasPython/static/aulasPython/aula09.html" target="_self">Aula 9</a></li>
-      <li><a href="https://panda.ime.usp.br/aulasPython/static/aulasPython/aula10.html" target="_self">Aula 10</a></li>
+      <li><a onclick="carregar('https://panda.ime.usp.br/aulasPython/static/aulasPython/aula02.html')" href="#" >Aula 2 - Variáveis, expresões e comandos</a></li>
+      <li><a onclick="carregar('https://panda.ime.usp.br/aulasPython/static/aulasPython/aula03.html')" href="#">Aula 3 - Execuções condicionais e alternativas</a></li>
+      <li><a onclick="carregar('https://panda.ime.usp.br/aulasPython/static/aulasPython/aula04.html')" href="#">Aula 4 - Classe float e str e execuções condicionais em cadeia</a></li>
+      <li><a onclick="carregar('https://panda.ime.usp.br/aulasPython/static/aulasPython/aula05.html')" href="#">Aula 5 - Valores e operadores booleanos</a></li>
+      <li><a onclick="carregar('https://panda.ime.usp.br/aulasPython/static/aulasPython/while.html')" href="#">Aula 6 - Semana 4: Repetições com While</a></li>
+      <li><a onclick="carregar('https://panda.ime.usp.br/aulasPython/static/aulasPython/aula09.html')" href="#">Aula 9</a></li>
+      <li><a onclick="carregar('https://panda.ime.usp.br/aulasPython/static/aulasPython/aula10.html')" href="#">Aula 10</a></li>
 
     </ul>
   </nav>
@@ -33,10 +33,12 @@
     <script type="text/javascript">
         function carregar(pagina){
           var pag = pagina;
-          document.getElementById('artigo').innerHTML='<iframe src=' + pagina + ' height="700px" width="950px"></iframe>'
+          document.getElementById('artigo').innerHTML='<iframe src=' + pag + ' height="700px" width="950px"></iframe>'
         };
 
     </script>
   </footer>
 </body>
 </html>
+
+<!-- href="carregar('https://panda.ime.usp.br/aulasPython/static/aulasPython/while.html')" target="_self" -->
